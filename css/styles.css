@@ -1,0 +1,13 @@
+*{
+    background-color: lightgrey;
+}
+
+h1 {
+    color: green;
+}
+
+
+#main-footer {
+    padding: 60px 0px;
+    border-bottom: solid 10px #c45656;
+}
