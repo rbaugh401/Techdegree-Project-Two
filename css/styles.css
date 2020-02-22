@@ -1,9 +1,16 @@
 *{
     background-color: lightgrey;
+ 
 }
-
+body {
+    margin: auto;
+    width: 60%;
+    font: 1em/1.5;
+}
 h1 {
     color: green;
+    font-size: 2.5em;
+    margin: auto;
 }
 
 
