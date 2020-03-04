@@ -12,9 +12,28 @@ h1 {
     font-size: 2.5em;
     margin: auto;
 }
-
-
-#main-footer {
-    padding: 60px 0px;
-    border-bottom: solid 10px #c45656;
+p {
+    font-family: 'Nanum Gothic', sans-serif;
 }
+
+
+/*layouts */
+ .container {
+    width: 90%;
+
+ }
+
+ /*Media queries*/
+
+ @media (769px) {
+     .container{
+         width: 85%;
+     }
+ }
+
+ @media (1040px) {
+     .container {
+         max-width: 1080px;
+         width: 80%;
+     }
+ }
