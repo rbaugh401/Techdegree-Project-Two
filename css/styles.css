@@ -1,11 +1,16 @@
 *{
-    background-color: lightgrey;
- 
+    box-sizing: border-box;
 }
+
+nav {
+
+}
+
 body {
     margin: auto;
     width: 60%;
     font: 1em/1.5;
+    text-align: center;
 }
 h1 {
     color: green;
@@ -16,12 +21,23 @@ p {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+nav, 
+portfolio h2, 
+contact,
+#back-to-top{
+    text-transform: uppercase;
+}
+
 
 /*layouts */
  .container {
     width: 90%;
-
+    margin: 0 auto;
  }
+
+ .portfolio-image {
+    width: 100%;
+}
 
  /*Media queries*/
 
