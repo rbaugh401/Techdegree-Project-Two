@@ -1,24 +1,50 @@
+/*==========================
+   Base Element Styles
+   =========================*/
+
 *{
     box-sizing: border-box;
-}
-
-nav {
-
-}
-
-body {
     margin: auto;
-    width: 60%;
-    font: 1em/1.5;
+}
+
+nav,
+nav a {
+text-decoration: none;
+text-transform: uppercase;
+}
+
+body,
+header, 
+nav {
+    margin: auto;
+    width: 80%;
+    line-height: 1em;
     text-align: center;
 }
+
 h1 {
-    color: green;
-    font-size: 2.5em;
+    font-size: 1.7rem;
     margin: auto;
+    letter-spacing: .1rem;
+    padding: 1.5rem 0;
 }
+
+h2 {
+    font-size: 1.3rem;
+    padding: 1.5rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    padding-top: 1rem;
+}
+
 p {
     font-family: 'Nanum Gothic', sans-serif;
+    font-size: .8rem;
+    line-height: 1.25rem;
+    margin-bottom: 1.2rem;
+    padding-top: .5rem;
 }
 
 nav, 
@@ -28,24 +54,42 @@ contact,
     text-transform: uppercase;
 }
 
+/*==========================
+   Basic Layout Styles
+   =========================*/
 
-/*layouts */
+.profile-img {
+    width: 85%;
+    margin-top: 1.5rem;
+
+}
  .container {
     width: 90%;
     margin: 0 auto;
  }
 
+ .col
+
  .portfolio-image {
     width: 100%;
 }
 
- /*Media queries*/
+.contact, 
+footer {
+    background-color: lightgrey;
+
+}
+/*==========================
+        Media Queries
+ ===========================*/
 
  @media (769px) {
      .container{
          width: 85%;
      }
  }
+
+
 
  @media (1040px) {
      .container {
