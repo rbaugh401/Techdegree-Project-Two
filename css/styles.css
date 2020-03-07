@@ -2,54 +2,77 @@
    Base Element Styles
    =========================*/
 
+   /*--- header ---*/
+
 *{
     box-sizing: border-box;
     margin: auto;
 }
 
-nav,
-nav a {
-text-decoration: none;
-text-transform: uppercase;
-}
-
-body,
-header, 
-nav {
+body {
     margin: auto;
-    width: 80%;
+    width: 95%;
     line-height: 1em;
     text-align: center;
 }
 
-h1 {
-    font-size: 1.7rem;
-    margin: auto;
-    letter-spacing: .1rem;
-    padding: 1.5rem 0;
+
+header,
+nav, 
+.contact, 
+footer {
+    background-color: #ece9e9;
+    width: 100%;
 }
 
+.main-nav {
+    float: left;
+}
+
+h1 {
+    font-size: 1.4rem;
+    margin: auto;
+    letter-spacing: .1rem;
+    padding: 2rem 0;
+}
+
+.main-nav a {
+display: inline-block;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.main-nav a:hover{
+    color: #666666;
+}
+
+
+
+/* --- main --- */
+
 h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     padding: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 h3 {
     font-size: 1.4rem;
     padding-top: 1rem;
+    
 }
 
 p {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: .8rem;
     line-height: 1.25rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.8rem;
     padding-top: .5rem;
 }
 
 nav, 
-portfolio h2, 
-contact,
+.portfolio h2, 
+.contact,
 #back-to-top{
     text-transform: uppercase;
 }
@@ -61,22 +84,37 @@ contact,
 .profile-img {
     width: 85%;
     margin-top: 1.5rem;
-
 }
+
  .container {
     width: 90%;
     margin: 0 auto;
  }
 
- .col
-
  .portfolio-image {
     width: 100%;
 }
 
-.contact, 
+
+
 footer {
-    background-color: lightgrey;
+    float: left;
+}
+
+footer section p,
+.bold {
+display: inline-block;
+
+}
+
+.bold{
+    font-weight: bold;
+}
+footer h3{
+    font-size: 1rem;
+}
+
+footer p{
 
 }
 /*==========================

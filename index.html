@@ -6,22 +6,24 @@
 </head>
 <body>
     <header>
-        <h1>Student Name</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <section class="container">
+            <h1 id="back-to-top">Student Name</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <section class="about col">
+                    <img src="images/responsive-layout-profile.png" class="profile-img" alt="student profile image">
+                    <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
+            </section>
+        </section>
     </header>
     <main>
         <div class="container">
-            <section class="about col">
-                <img src="images/responsive-layout-profile.png" class="profile-img" alt="student profile image">
-                <p>text about student</p>
-            </section>
-            <section class="portfolio col">
+            <section class="portfolio col" id="portfolio">
                 <h2>Portfolio</h2>
                 <section class="marketing col">
                     <img src="images/portfolio-1.png" class="portfolio-image" alt="webpage graphic">
@@ -53,15 +55,18 @@
                     <h3>Calculator</h3>
                     <p>Somene can enter in the numbers they want and press the big blue button and get the result.</p>
                 </section>
-                <section class="contact">
-                    <h2>Contact</h2>
-                    <p>If you're interested in chatting or want more infomation about what I've been working on, I'd love to hear from you!</p>
-                    <phone>Phone +1(111)555-1234</phone>
-                    <email>Email email@yoursite.com</email>
-                </section>
             </div>
     </main>
-    <footer>
-        <h3>Student name</h3>
-        <a id="back-to-top">Back to Top</a>
-    </footer>
+ </body>   
+<footer>
+    <section id="contact">
+        <h2 class="contact">Contact</h2>
+        <p>If you're interested in chatting or want more infomation about what I've been working on, I'd love to hear from you!</p>
+        <p>Phone</p> 
+        <p class="bold">+1(111)555-1234</p>
+        <p>Email</p>
+        <p class="bold">email@yoursite.com</p>
+    </section>
+    <h3 class="student-name">Student name</h3>
+    <a href="#back-to-top">Back to Top</a>
+</footer>
