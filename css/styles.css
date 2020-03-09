@@ -79,7 +79,8 @@ p {
 
 nav, 
 .portfolio h2, 
-.contact {
+.contact,
+.bottom-link {
     text-transform: uppercase;
 }
 
@@ -104,6 +105,10 @@ nav,
 
 /* -- footer section -- */
 
+footer {
+    padding: 1rem 0;
+}
+
 footer p{
     width: 90%;
     display: inline-block;
@@ -117,6 +122,7 @@ footer div {
     float: left;
     width: 100%;
     margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 .bottom-nav {
@@ -125,9 +131,14 @@ footer div {
 
 footer h3, 
 .bottom-link {
-    font-size: .9rem;
-    width: 42%;
+    display: inline-block;
+    font-size: .7rem;
+    width: 49%;
+    text-decoration: none;
+    margin-bottom: 1rem;
 }
+
+
 
 .group:after {
     content:"";
