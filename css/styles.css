@@ -16,7 +16,6 @@ body {
     text-align: center;
 }
 
-
 header, 
 footer {
     background-color: #fcf9f9;
@@ -154,6 +153,31 @@ footer h3,
      .container{
          width: 85%;
      }
+
+
+    .main-nav ul {
+        display: inline-block;
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .main-nav a {
+        padding: .7em .3em;
+        margin: .3em 0px;
+        letter-spacing: .3em;
+        font-size: 1em;
+        line-height: .8em;
+        background-color: #ffffff;
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #272727;
+    }
+
+    .main-nav a:hover{
+        color: #6e0101;
+    }
+
  }
 
 
